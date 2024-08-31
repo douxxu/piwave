@@ -48,7 +48,7 @@ To install PiWave manually, follow these steps:
 1. **Clone the repository and install**:
 
     ```bash
-    pip install git+https://github.com/douxxu/piwave.git
+    pip install git+https://github.com/douxxu/piwave.git --break-system-packages
     ```
 
 2. **Dependencies**:
