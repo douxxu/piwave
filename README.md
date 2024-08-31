@@ -1,4 +1,4 @@
-# PiWave
+# 📻 PiWave
 
 **PiWave** is a Python module designed to manage and control your Raspberry Pi radio using the `pi_fm_rds` utility. It allows you to easily convert audio files to WAV format and broadcast them at a specified frequency with RDS (Radio Data System) support.
 
@@ -48,10 +48,8 @@ To install PiWave manually, follow these steps:
 1. **Clone the repository and install**:
 
     ```bash
-    pip install git+https://github.com/yourusername/piwave.git
+    pip install git+https://github.com/douxxu/piwave.git
     ```
-
-    Replace `yourusername` with your GitHub username.
 
 2. **Dependencies**:
 
@@ -60,6 +58,9 @@ To install PiWave manually, follow these steps:
     ```bash
     sudo apt-get install ffmpeg
     ```
+3. **PiFmRds**:
+
+   PiWave uses [PiFmRds](https://github.com/ChristopheJacquet/PiFmRds) to work. Make sure you have installed it before running PiWave
 
 ## Usage
 
@@ -117,7 +118,7 @@ PiWave is licensed under the GNU General Public License (GPL) v3.0. See the [LIC
 
 ## Contributing
 
-Contributions are welcome! Please submit a pull request or open an issue on [GitHub](https://github.com/yourusername/piwave/issues) for any bugs or feature requests.
+Contributions are welcome! Please submit a pull request or open an issue on [GitHub](https://github.com/douxxu/piwave/issues) for any bugs or feature requests.
 
 ---
 
