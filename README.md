@@ -15,7 +15,7 @@
 - Broadcasts WAV files using the `pi_fm_rds` utility.
 - Configurable broadcast frequency, PS (Program Service), RT (Radio Text), and PI (Program Identifier).
 - Supports looping of playback.
-- Detailed logging with support for debug mode.
+- Detailed logging for debug mode.
 
 ## Hardware Installation
 
