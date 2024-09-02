@@ -1,19 +1,17 @@
 #!/bin/bash
 
-# Function to print text in magenta color
+
 print_magenta() {
   echo -e "\e[35m$1\e[0m"
 }
 
-# Function to check the status of the last command and exit if it failed
 check_status() {
   if [ $? -ne 0 ]; then
-    echo -e "\e[31mError: $1 failed\e[0m"  # Print error message in red
+    echo -e "\e[31mError: $1 failed\e[0m"
     exit 1
   fi
 }
 
-# Display ASCII art in magenta
 print_magenta "
   ____  ___        __                   |                       !
  |  _ \(_) \      / /_ ___      _____    |                       |
@@ -31,7 +29,7 @@ print_magenta "
                      '----------------'                            |
 "
 
-# Execute installation commands
+
 echo "Creating the PiWave_deps directory..."
 mkdir -p PiWave_deps
 check_status "Creating directory PiWave_deps"
@@ -44,7 +42,7 @@ sudo apt update
 check_status "Updating package lists"
 
 echo "Installing required packages..."
-sudo apt install -y python3 python3-pip libsndfile1-dev make ffmpeg
+sudo apt install -y python3 python3-pip libsndfile1-dev make ffmpeg git
 check_status "Installing required packages"
 
 echo "Installing PiWave..."
@@ -59,11 +57,11 @@ echo "Changing to PiFmRds/src directory..."
 cd PiFmRds/src || { echo -e "\e[31mError: cd to PiFmRds/src failed\e[0m"; exit 1; }
 
 echo "Cleaning previous builds..."
-make clean
+sudo make clean
 check_status "Cleaning previous builds"
 
 echo "Building PiFmRds..."
-make
+sudo make
 check_status "Building PiFmRds"
 
 echo "Returning to the previous directory..."
