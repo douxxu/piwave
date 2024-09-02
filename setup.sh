@@ -46,11 +46,11 @@ sudo apt install -y python3 python3-pip libsndfile1-dev make ffmpeg git
 check_status "Installing required packages"
 
 echo "Installing PiWave..."
-sudo pip install git+https://github.com/douxxu/piwave.git 
+sudo pip install git+https://github.com/douxxu/piwave.git --break-system-packages
 check_status "Installing PiWave"
 
 echo "Cloning PiFmRds..."
-sudo git clone https://github.com/ChristopheJacquet/PiFmRds --break-system-packages
+sudo git clone https://github.com/ChristopheJacquet/PiFmRds
 check_status "Cloning PiFmRds"
 
 echo "Changing to PiFmRds/src directory..."
