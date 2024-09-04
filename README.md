@@ -17,6 +17,10 @@
 - Supports looping of playback.
 - Detailed logging for debug mode.
 
+> [!NOTE]
+> Are you looking for a minimal gui for PiWave?
+> Take a look at the [PiWave WebGUI](https://github.com/douxxu/piwave-webgui)
+
 ## Hardware Installation
 
 To use PiWave for broadcasting, you need to set up the hardware correctly. This involves connecting an antenna or cable to the Raspberry Pi's GPIO pin.
