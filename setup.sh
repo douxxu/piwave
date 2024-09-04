@@ -42,7 +42,7 @@ sudo apt update
 check_status "Updating package lists"
 
 echo "Installing required packages..."
-sudo apt install -y python3 python3-pip libsndfile1-dev make ffmpeg git
+sudo apt install -y python3 libsndfile1-dev make ffmpeg git
 check_status "Installing required packages"
 
 echo "Installing PiWave..."
