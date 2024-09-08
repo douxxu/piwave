@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+# github.com/PiWave-fm | github.com/douxxu
 print_magenta() {
   echo -e "\e[35m$1\e[0m"
 }
