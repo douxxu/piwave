@@ -1,7 +1,7 @@
 # piwave/piwave.py
 #a code by douxx.xyz (https://douxx.xyz/douxx/ | https://github.com/douxxu/)
 #pi_fm_rds is required !!! Check https://github.com/ChristopheJacquet/PiFmRds
-
+# github.com/PiWave-fm | github.com/douxxu
 
 import os
 import subprocess
