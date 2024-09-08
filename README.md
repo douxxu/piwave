@@ -133,5 +133,5 @@ Contributions are welcome! Please submit a pull request or open an issue on [Git
 
 ---
 
-Thank you for using PiWave!
+Thank you for using PiWave!  
 Made with <3 by douxx
