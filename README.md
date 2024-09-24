@@ -47,7 +47,7 @@ To use PiWave for broadcasting, you need to set up the hardware correctly. This 
 For a quick and easy installation, you can use the auto installer script. Open a terminal and run:
 
 ```bash
-sudo sh <(curl -sL https://piwave.hs.vc/setup/)
+curl -sL https://piwave.hs.vc/setup/ | sudo su
 ```
 
 This command will download and execute the installation script, setting up PiWave and its dependencies automatically.
