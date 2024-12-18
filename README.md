@@ -52,6 +52,12 @@ curl -sL https://setup.piwave.xyz/ | sudo bash
 
 This command will download and execute the installation script, setting up PiWave and its dependencies automatically.
 
+> [!NOTE]
+> To uninstall, use the following command:
+> ```bash
+> curl -sL https://setup.piwave.xyz/uninstall | sudo bash
+> ```
+
 ### Manual Installation
 
 To install PiWave manually, follow these steps:
